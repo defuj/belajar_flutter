@@ -1,4 +1,4 @@
-import 'package:belajar_flutter/page/form.dart';
+import 'package:belajar_flutter/page/add.dart';
 import 'package:belajar_flutter/page/home.dart';
 import 'package:belajar_flutter/page/profile.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       routes: {
-        '/': (context) => FormPage(),
+        '/': (context) => AddPage(),
         '/home': (context) => HomePage(),
         '/profile': (context) => ProfilePage(),
       },
