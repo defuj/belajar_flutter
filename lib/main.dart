@@ -1,6 +1,7 @@
 import 'package:belajar_flutter/page/add.dart';
 import 'package:belajar_flutter/page/home.dart';
 import 'package:belajar_flutter/page/profile.dart';
+import 'package:belajar_flutter/page/seach.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,7 +25,8 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       routes: {
-        '/': (context) => AddPage(),
+        '/': (context) => Search(),
+        '/add': (context) => AddPage(),
         '/home': (context) => HomePage(),
         '/profile': (context) => ProfilePage(),
       },
